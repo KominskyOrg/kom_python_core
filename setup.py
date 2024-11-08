@@ -14,6 +14,7 @@ setup(
         'opentelemetry-api',
         'opentelemetry-instrumentation-flask',
         'opentelemetry-exporter-otlp',
+        'requests',
     ],
     extras_require={
         'dev': [
