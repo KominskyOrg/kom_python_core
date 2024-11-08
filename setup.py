@@ -15,6 +15,7 @@ setup(
         'opentelemetry-instrumentation-flask',
         'opentelemetry-exporter-otlp',
         'requests',
+        'python-json-logger',
     ],
     extras_require={
         'dev': [

@@ -11,7 +11,7 @@ def configure_logging():
         "formatters": {
             "json": {
                 "()": "pythonjsonlogger.jsonlogger.JsonFormatter",
-                "format": "%(asctime)s %(levelname)s %(name)s %(message)s %(correlation_id)s",
+                "format": "%(asctime)s %(levelname)s %(name)s %(message)s",
             },
         },
         "handlers": {

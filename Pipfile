@@ -9,6 +9,8 @@ opentelemetry-sdk = "*"
 opentelemetry-api = "*"
 opentelemetry-instrumentation-flask = "*"
 opentelemetry-exporter-otlp = "*"
+requests = "*"
+python-json-logger = "*"
 
 [dev-packages]
 ruff = "*"
