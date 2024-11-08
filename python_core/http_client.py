@@ -7,7 +7,7 @@ from requests.exceptions import (
     RequestException,
 )
 from flask import jsonify
-from .error_handler import APIError
+from python_core.error_handler import APIError
 
 logger = logging.getLogger(__name__)
 
