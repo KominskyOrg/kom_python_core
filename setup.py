@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kom_python_core',
-    version='0.1.0',
+    version='0.1.3',
     description='Core centralized packages for KominskyOrg Python utilities.',
     author='Jared Kominsky',
     author_email='kominskyjared@gmail.com',
