@@ -6,8 +6,6 @@ from requests.exceptions import (
     HTTPError,
     RequestException,
 )
-from flask import jsonify
-from python_core.error_handler import APIError
 
 logger = logging.getLogger(__name__)
 
