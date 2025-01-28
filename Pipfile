@@ -4,11 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-flask = "*"
-opentelemetry-sdk = "*"
-opentelemetry-api = "*"
-opentelemetry-instrumentation-flask = "*"
-opentelemetry-exporter-otlp = "*"
 requests = "*"
 python-json-logger = "*"
 

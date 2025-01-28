@@ -11,10 +11,6 @@ setup(
     install_requires=[
         'requests',
         'python-json-logger',
-        'opentelemetry-sdk',
-        'opentelemetry-api',
-        'opentelemetry-instrumentation-flask',
-        'opentelemetry-exporter-otlp',
     ],
     extras_require={
         'dev': [
