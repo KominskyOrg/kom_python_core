@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='kom_python_core',
-    version='0.1.12',
+    name='kom-python-core',
+    version='0.1.13',
     description='Core centralized packages for KominskyOrg Python utilities.',
     author='Jared Kominsky',
     author_email='kominskyjared@gmail.com',
