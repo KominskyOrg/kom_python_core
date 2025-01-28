@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kom_python_core',
-    version='0.1.8',
+    version='0.1.9',
     description='Core centralized packages for KominskyOrg Python utilities.',
     author='Jared Kominsky',
     author_email='kominskyjared@gmail.com',
@@ -11,6 +11,10 @@ setup(
     install_requires=[
         'requests',
         'python-json-logger',
+        'opentelemetry-sdk',
+        'opentelemetry-api',
+        'opentelemetry-instrumentation-flask',
+        'opentelemetry-exporter-otlp',
     ],
     extras_require={
         'dev': [
