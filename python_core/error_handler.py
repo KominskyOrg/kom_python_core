@@ -1,3 +1,5 @@
+# python_core/error_handler.py
+
 class APIError(Exception):
     def __init__(self, message, status_code, error_code=None):
         super().__init__(message)
