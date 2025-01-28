@@ -2,18 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='kom_python_core',
-    version='0.1.6',
+    version='0.1.7',
     description='Core centralized packages for KominskyOrg Python utilities.',
     author='Jared Kominsky',
     author_email='kominskyjared@gmail.com',
     url='https://github.com/kominskyorg/kom_python_core',
     packages=find_packages(include=['python_core', 'python_core.*']),
     install_requires=[
-        'flask',
-        'opentelemetry-sdk',
-        'opentelemetry-api',
-        'opentelemetry-instrumentation-flask',
-        'opentelemetry-exporter-otlp',
         'requests',
         'python-json-logger',
     ],
