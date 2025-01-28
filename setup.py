@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(
     name='kom_python_core',
-    version='0.1.11',
+    version='0.1.12',
     description='Core centralized packages for KominskyOrg Python utilities.',
     author='Jared Kominsky',
     author_email='kominskyjared@gmail.com',
     url='https://github.com/kominskyorg/kom_python_core',
-    packages=find_packages(include=['python_core', 'python_core.*']),
+    packages=find_packages(include=['kom_python_core', 'kom_python_core.*']),
     install_requires=[
         'requests',
         'python-json-logger',
