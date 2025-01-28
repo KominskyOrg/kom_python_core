@@ -11,6 +11,7 @@ opentelemetry-instrumentation-flask = "*"
 opentelemetry-exporter-otlp = "*"
 requests = "*"
 python-json-logger = "*"
+kom-python-core = "*"
 
 [dev-packages]
 ruff = "*"
