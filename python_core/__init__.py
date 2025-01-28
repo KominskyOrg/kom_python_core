@@ -1,6 +1,6 @@
 # python_core/__init__.py
 
-from .logging import LoggingConfig
+from .logging import LoggingConfig as LoggingConfig
 from .middleware import correlation_id_middleware
 from .tracing import configure_tracing
 from .http_client import HTTPClient
